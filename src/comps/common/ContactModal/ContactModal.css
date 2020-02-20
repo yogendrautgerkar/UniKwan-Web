@@ -1,0 +1,337 @@
+
+@font-face {
+    font-family: icomoon;
+    src: url(../../../assets/fonts/fonts/icomoon.ttf)
+          
+  }
+
+.radioA{
+    padding: 20px  0;
+}
+.build_options{
+    padding-top: 20px;
+}
+
+.icon-web:before {
+    font-family: 'icomoon';
+    content: "\e901";
+    color: #4b81ff;
+    font-size: 30px;
+    padding: 0;
+    margin:0
+  }
+
+  .icon-idea:before {
+    font-family: 'icomoon';
+    content: "\e900";
+    color: #4b81ff;
+    font-size: 30px;
+    padding: 0;
+    margin:0
+  }
+
+  .icon-job:before {
+    font-family: 'icomoon';
+    content: "\e902";
+    color: #4b81ff;
+    font-size: 30px;
+  }
+
+  .active span:before{
+      color: #fff
+  }
+
+  .modal-content::-webkit-scrollbar {
+    width: 0em;
+    height: 0em;
+}
+    
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+    text-align: left;
+    color: #343434;
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: fixed;
+    right: 0;
+    background-color: #fefefe;
+    width: 50%;
+    height: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    border-radius: 0 !important;
+    overflow-y: auto;
+    border: 0
+  }
+   
+  
+  /* The Close Button */
+  .close {
+    color: #083ac8;
+      float: right;
+      font-size: 50px;
+      font-weight: 400;
+     
+      margin-right: 20px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+    from {right: -300px; opacity: 0} 
+    to {right: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {right: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  input[type="text"],
+  select.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #707070;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+  
+  }
+  
+  input[type="text"]:focus,
+  select.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  select {
+    background-image:
+      linear-gradient(45deg, transparent 50%, #4b81ff 60%),
+      linear-gradient(135deg, #4b81ff 40%, transparent 50%) !important;
+    background-position:
+      calc(100% - 15px) 14px,
+      calc(100% - 5px) 14px,
+      100% 0;
+    background-size:
+      10px 10px,
+      10px 10px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #707070;
+     padding: 5px 20px 5px 10px ;
+  
+    font-size: 16px;
+    cursor: pointer;
+  }
+  select:focus{
+    border:0 !important;
+    border-bottom: 1px solid #4b81ff !important ;
+  }
+  
+  select option:hover{
+    color: #4b81ff;
+
+  }
+  
+  select option{
+    padding: 15px
+  }
+  .radioA input {
+    position: absolute;
+    pointer-events: none;
+    visibility: hidden;
+  }
+   
+  .radioA input:checked + label .checker {
+    box-shadow: inset 0 0 0 4px #4b81ff;
+  }
+  .radioA label {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    border-radius: 14px;
+    margin: 10px;
+    padding: 0 8px 0 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:100%;
+  }
+   
+  .radioA label:hover .checker {
+    box-shadow: inset 0 0 0 2px #4b81ff;
+  }
+  .radioA .checker {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: inset 0 0 0 2px #ccc;
+    transition: box-shadow 0.3s ease;
+  }
+  
+   
+  .form-group{
+    display: flex;flex-wrap: wrap;
+     width:100%;
+     justify-content:flex-start;
+     font-size:20px;
+   }
+   .my_radio {
+      
+       display: block !important;
+       position: relative !important;
+     
+       flex: 0 30%;
+       align-self: baseline;
+       padding-left: 5px;
+     }
+     .my_radio label {
+       background-color: rgb(233, 233, 233) !important;
+       padding: 10px 15px;
+       border-radius: 5px;
+       display: block;
+       text-align: left;
+       color: rgba(0, 0, 0, 1);
+       cursor: pointer;
+       position: relative;
+       z-index: 3;
+       transition: color 200ms ease-in;
+       overflow: hidden;
+       font-size: 12px;
+       text-align: center
+     }
+     .my_radio label::before {
+       width: 15px;
+       height: 15px;
+       border-radius: 50%;
+       content: '';
+       background: rgba(75, 129, 255, 1);
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       -webkit-transform: translate(-50%, -50%) scale3d(1, 1, 1);
+       transform: translate(-50%, -50%) scale3d(1, 1, 1);
+       transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+       opacity: 0;
+       z-index: -1;
+       font-weight: 700;
+     }
+      
+     .my_radio input:checked ~label {
+       color: #fff;
+     }
+     .my_radio input:checked ~ label::before {
+       -webkit-transform: translate(-50%, -50%) scale3d(56, 56, 1);
+               transform: translate(-50%, -50%) scale3d(56, 56, 1);
+       opacity: 1;
+     }
+     .my_radio input:checked ~ label::after {
+       background-color: #842eca;
+       border:3px solid #fff;
+       font-weight: 900
+     }
+     .my_radio input {
+       width: 15px;
+       height: 15px;
+       order: 1;
+       z-index: 2;
+       position: absolute;
+       right: 30px;
+       top: 50%;
+       -webkit-transform: translateY(-50%);
+               transform: translateY(-50%);
+       cursor: pointer;
+       visibility: hidden;
+     }
+  
+     #ques{
+      font-size: 18px;
+      font-weight: 700;
+      text-align: left
+     
+     }
+  
+      
+  
+    .cats{
+      background: rgba(0, 106, 255, 0.11);
+      padding: 20px 0;
+      width: 100%;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 4px;
+      align-items: center;
+      height: 95px;
+     }
+  
+     
+     .cats img{
+       width: 30px
+     }
+   
+     .cats.active{
+       background: rgba(75, 129, 255, 1);
+       color: #fff
+     }
+
+     .contact_cats div{
+         cursor: pointer;
+     }
+
+
+     @media only screen and (max-width: 1020px) {
+       .modal-content{
+         width: 100%
+       }
+    }

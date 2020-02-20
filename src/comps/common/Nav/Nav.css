@@ -1,0 +1,159 @@
+ .navbar{
+     position: absolute;
+     top:0;
+     left:0;
+     width: 100%
+ }
+
+ #logo{
+     width:150px
+ }
+ .navbar-brand{
+     z-index: 1 !important  ;
+ }
+
+ #menu{
+     display: inline-block
+ }
+
+ #contact_btn_menu{
+     border:2px solid #FF51E8;
+     border-radius: 8px;
+     font-weight: 600;
+     transition: border 1s linear
+ }
+
+ .nav-item{
+     padding: 0px 5px;
+     margin: 0 8px;
+ 
+   
+ }
+
+ span.nav-link{
+     cursor: pointer;
+ }
+ .nav-item .nav-link{
+    color: #fff !important
+ } 
+
+ .dark-nav-item .nav-link{
+     color: #343434 !important
+ }
+
+ .active{
+     font-weight: 600;  
+ }
+
+ .nav-item > #cnt_btn{
+     display: flex
+ }
+ .nav-item a, .nav-item span {
+    
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    }
+
+ .nav-item  a:hover{
+	color: #4b81ff;
+}
+
+ .nav-item a:before{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #4b81ff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.15s ease-in-out 0s;
+    transition: all 0.15s ease-in-out 0s;
+  
+  }
+  
+ .nav-item a:hover:before , .nav-item a.active:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+#myCustomMobileMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1b0334;
+    visibility: hidden;
+    height:0px;
+    width: auto;
+    transition: visibility 0.5s ease;
+    -webkit-transition: visibility 0.5s ease;
+    z-index: 3;
+
+}
+#myCustomMobileMenu span{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px
+     
+}
+#myCustomMobileMenu .customMenu{
+    color: #fff;
+    list-style: none;
+    font-size: 38px;
+    padding: 10px;
+    position: absolute;
+ 
+    
+}
+#myCustomMobileMenu .customMenu li{
+    padding: 15px 0
+}
+ 
+#myCustomMobileMenu .customMenu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 !important
+}
+ 
+
+#myCustomCloseBtn{
+    position: absolute;
+    top:20px;
+    right:20px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border:0px;
+    
+     
+}
+
+button.my-custom-navbar-toggler{
+    cursor: pointer;
+     background: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    
+}
+ 
+  @media screen and (min-width: 1024px) {
+    button.my-custom-navbar-toggler{
+        display: none !important
+    }
+  }

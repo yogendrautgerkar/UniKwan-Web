@@ -1,0 +1,173 @@
+ .hero{
+    height: 100vh;
+    padding-top: 170px;
+ }
+
+#the_arrow{
+    width:100%;height: auto;
+}
+
+ 
+
+.text_content{
+    color:#fff;
+    text-align: left;
+  
+}
+#hero_mid{
+    color:#F943FF;
+    transition: color 1s linear
+    
+}
+.text_top{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.05em;
+    display: block;
+    color: #fff
+}
+
+.text_bottom{
+   width: 100%;
+    color: #fff;
+top:215px}
+
+#the_u{
+    position: absolute;
+    width: 60%;
+    top:-450px;
+    left:-345px;
+    background: rgba(0,0,0,0);
+    background-blend-mode: darken;
+    transition: background 1s linear
+}
+
+.the_u .a, .the_u .ddd{
+    fill:#FF51E8;
+   transition: fill 1s linear; 
+}
+
+.arrow{
+    overflow: hidden;
+}
+
+.mouse{
+    
+    cursor: pointer
+}
+
+.mouse img, .hero_scroll_btn img{
+    width: 15px;
+  
+}
+
+.mouse span, .hero_scroll_btn span{
+   
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.6;
+    padding-top: 5px
+}
+
+ 
+
+ 
+    @media only screen and (max-width: 600px) {
+        /* For desktop: */
+         .arrow{
+             position: absolute;
+             top:20px;
+             width: 30%
+         }
+         .arrow > div>svg{
+            width: 30%
+         }
+         .text_top{
+             font-size: 12vw
+         }
+          
+      }
+      @media only screen and (max-width: 800px) {
+        .hero{
+          
+            padding-top: 10px;
+         }
+      }
+
+
+      @media only screen and (min-width: 600px) {
+        #small-text{
+            font-size: 18px;
+          
+        }
+      }
+
+      .item-1, 
+.item-2, 
+.item-3 { width: 100%;
+    position: absolute;
+    top:-160px;
+  display: block;
+	animation-duration: 12s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -0%; opacity: 0; }
+  8.3%,25% { left: 0%; opacity: 1; }
+  33.33%, 100% { left: 10%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -0%; opacity: 0; }
+  41.63%, 58.29% { left: 0%; opacity: 1; }
+  66.66%, 100% { left: 10%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -0%; opacity: 0; }
+  74.96%, 91.62% { left: 0%; opacity: 1; }
+  100% { left: 10%; opacity: 0; }
+}
+#small-text{
+    font-size: 15px;
+    display: block;
+    font-weight: 400;
+    width: 70%;
+    line-height: 1.5;
+    text-transform: none;
+    padding-top: 10px;
+    letter-spacing: .5px;
+}
+
+
+.paragraph {
+    display: inline-block;
+  	overflow: hidden;
+ 	animation:  4s typing steps(50, end) infinite;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0
+    }
+    to { 
+        width: 100% 
+    }
+}

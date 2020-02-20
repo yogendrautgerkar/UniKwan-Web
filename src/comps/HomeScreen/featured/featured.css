@@ -1,0 +1,87 @@
+h1{
+    color:#fff !important
+}
+ 
+
+.image{
+    width:150px;
+    
+}
+
+ 
+
+.article{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    
+    margin: 0 20px;
+    background-size:cover; 
+    height:280px;   
+    color:#fff;
+    margin: 0 20px
+
+}
+
+.article h5{
+    width: 60%;
+    margin:0;
+}
+.article p {
+    width:80%
+}
+ 
+ 
+.my_article_wrapper{
+    padding:70px 0;
+     background: #fff;
+}
+
+.article_text{
+    display: flex;
+    flex-direction: row;
+    color: #fff !important;
+    text-align: left;
+}
+ 
+ .text_items{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     
+     align-items: flex-start;
+
+ }
+
+ .container > div> h1{
+     color:rgba(52, 52, 52, 1) !important;
+     font-weight: 700
+ }
+
+ .container > div> h1> span{
+     color:rgba(75, 129, 255, 1) !important
+ }
+
+ 
+ 
+  .article_slider_container >.slider > .slick-next:before, .article_slider_container >.slider > .slick-prev:before {
+    display: none;
+    
+}
+.article_slider_container > .slider >.slick-arrow {
+    z-index: 9 !important;
+    top: 50% !important;
+
+}
+
+.article_slider_container .slider .slick-prev{
+    left:-35px
+}
+
+a.article_link:hover{
+    text-decoration: none;
+}
+ 

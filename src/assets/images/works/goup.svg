@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:#343434;stroke-width:2px}.cls-3,.cls-4{stroke:none}.cls-4{fill:#4b81ff}
+        </style>
+    </defs>
+    <g id="Group_226" data-name="Group 226" transform="rotate(-90 -473.5 1423.5)">
+        <g id="Group_115" data-name="Group 115">
+            <g id="Path_61" class="cls-1" data-name="Path 61">
+                <path d="M32.5 0A32.5 32.5 0 1 1 0 32.5 32.5 32.5 0 0 1 32.5 0z" class="cls-3" transform="translate(885 1897)"/>
+                <path d="M32.5 2a30.401 30.401 0 0 0-21.567 8.933A30.401 30.401 0 0 0 2 32.5a30.401 30.401 0 0 0 8.933 21.567A30.401 30.401 0 0 0 32.5 63a30.401 30.401 0 0 0 21.567-8.933A30.401 30.401 0 0 0 63 32.5a30.401 30.401 0 0 0-8.933-21.567A30.401 30.401 0 0 0 32.5 2m0-2C50.45 0 65 14.55 65 32.5S50.45 65 32.5 65 0 50.45 0 32.5 14.55 0 32.5 0z" class="cls-4" transform="translate(885 1897)"/>
+            </g>
+            <path id="Path_54" d="M8312 929l8.5 10.623-8.5 10.623" class="cls-2" data-name="Path 54" transform="translate(-7385.5 990.5)"/>
+            <path id="Path_55" d="M-4535 16420.539h36" class="cls-2" data-name="Path 55" transform="translate(5434 -14490.039)"/>
+        </g>
+    </g>
+</svg>

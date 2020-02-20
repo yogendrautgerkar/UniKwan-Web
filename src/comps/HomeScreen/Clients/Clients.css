@@ -1,0 +1,23 @@
+.the_clients{
+    background: rgba(246, 246, 246, 1);
+    padding: 70px 0;
+}
+
+.the_clients>div>h1{
+    color:rgba(52, 52, 52, 1) !important;
+    font-weight: 700
+}
+
+ 
+
+.image{
+    width:150px;
+    filter: grayscale(100%)
+}
+
+.clients_list{
+    padding-bottom: 50px
+}
+.clients_list div{
+    padding: 20px 0;
+}

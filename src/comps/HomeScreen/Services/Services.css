@@ -1,0 +1,70 @@
+.main_ct{
+    position: relative;
+  
+}
+.the_item_container{
+    margin-top: 70px
+}
+.img_container{
+   
+    height:300px;
+    background-color:transparent;
+    width: 100%;
+    margin:0 15px 0 0;
+    border-radius: 25px  0 25px 0 ;
+    
+}
+
+.service_text_content *{
+    color:rgba(52, 52, 52, 1)  ;
+    text-transform: unset;
+    
+}
+.service_text_content > .text_top{
+    font-size: 45px
+}
+#hero_services_mid{
+    color: rgba(75, 129, 255, 1)
+} 
+
+.image_slider{
+    color:#fff
+}
+
+#slider_name{
+text-align: left;
+padding: 0;
+color: rgba(27, 3, 52, 0.7)
+}
+
+.section_div{
+    background: #fff !important
+}
+
+.light_back{
+    background: rgba(75, 129, 255, 0.06);
+    height:105%;
+    width:60%;
+    position: absolute;
+    left: -320px;
+    top:0
+    
+}
+ 
+.light_back2{
+    background: rgba(103, 67, 239, 0.08);
+    height:100%;
+    width:50%;
+    position: absolute;
+    left: -200px;
+    top:0
+    
+}
+ 
+.place_bubble{
+    position: absolute;
+    right:-580px;
+    top:0px;
+    width:700px;
+    height: 700px
+}

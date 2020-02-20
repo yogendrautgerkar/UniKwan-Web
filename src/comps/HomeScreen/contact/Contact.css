@@ -1,0 +1,90 @@
+ .text_items{
+   color: #fff;
+   padding: 15px;
+   /* margin:0 10px */
+ }
+ .the_item{
+  background: rgba(255,255,255,0.04);
+  margin:5px;
+  padding:20px;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  transition: background 0.5s ease;
+ }
+ .the_item h3{
+   width:40%;
+   margin: 0
+ }
+ #contact_p{
+   width: 80%;
+   margin-bottom: 40px;
+    margin-top: 20px;
+ }
+
+ .text_box{
+   height: 350px
+ }
+ .text-left div{
+
+   padding: 50px 20px
+ }
+#contact_head{
+  color: #fff !important
+}
+ p{
+   font-size: 12px;
+   padding-top: 15px
+ }
+
+ #cnct_btn{
+ 
+   border-radius: 3px;
+   padding: 10px 5px !important;
+   width:50% !important;
+   margin:50px 0 0 0;
+   text-align: center;
+   cursor: pointer;
+   text-transform: uppercase;
+   margin-bottom: 35px;
+   background: rgba(75, 129, 255, 1);
+ }
+
+ #icons{
+   width: 40px;
+   height: 40px
+ }
+
+ .item_1:hover{
+    background: linear-gradient(to top, rgba(37, 0, 86, 1),rgba(153, 36, 255, 1));
+    transition: background 0.5s linear;
+ }
+ .item_2:hover{
+    background: linear-gradient(to top, rgb(113, 0, 136),rgba(153, 36, 255, 1));
+    transition: background 1s linear;
+ }
+ .item_3:hover{
+    background: linear-gradient(to top, rgb(0, 125, 163),rgba(153, 36, 255, 1));
+    transition: background 1s linear;
+ }
+
+ .my_contact_wrapper {
+   padding: 70px 0 ;
+
+ }
+ .my_contact_wrapper > div > h1{
+   color: #fff !important;
+   font-weight: 500
+ }
+
+ .item_3 > p{
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  padding: 0
+ }
+
+   

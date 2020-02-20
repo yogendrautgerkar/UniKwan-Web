@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="31.7" viewBox="0 0 46 31.7">
+  <g id="Group_243" data-name="Group 243" transform="translate(21571.174 7681.2)">
+    <g id="Right_arrow" data-name="Right arrow" transform="translate(-21571.174 -7680.5)">
+      <path id="Path_31" data-name="Path 31" d="M8312,929l14.367,14.367L8312,957.734" transform="translate(-8303.327 -928.286)" fill="none" stroke="#4b81ff" stroke-linecap="round" stroke-width="2"/>
+      <rect id="Rectangle_88" data-name="Rectangle 88" width="31" height="31" fill="none"/>
+    </g>
+    <g id="Left_arrow" data-name="Left arrow" transform="translate(-21556.174 -7680.5)">
+      <path id="Path_31-2" data-name="Path 31" d="M8326.366,929,8312,943.367l14.367,14.367" transform="translate(-8303.757 -928.286)" fill="none" stroke="#4b81ff" stroke-linecap="round" stroke-width="2"/>
+      <rect id="Rectangle_88-2" data-name="Rectangle 88" width="31" height="31" fill="none"/>
+    </g>
+  </g>
+</svg>
